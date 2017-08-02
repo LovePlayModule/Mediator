@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		035630D34B534979C4115095 /* Pods-Mediator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mediator_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mediator_Example/Pods-Mediator_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		0F4AC93EFF82B410AEBF6E36 /* Pods-Mediator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mediator_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mediator_Tests/Pods-Mediator_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1D68F28FC7CE7A9B50B57F7E /* Mediator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Mediator.podspec; path = ../Mediator.podspec; sourceTree = "<group>"; };
+		1D68F28FC7CE7A9B50B57F7E /* Mediator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Mediator.podspec; path = ../Mediator.podspec; sourceTree = "<group>"; };
 		45BD4F218E5A257F3AA13BDC /* Pods-Mediator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mediator_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mediator_Tests/Pods-Mediator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* Mediator_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mediator_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,8 +65,8 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A3560FDE7D63F9E7ED4360E /* Pods_Mediator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mediator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A57E5AD229DCE3E51FECAD22 /* Pods-Mediator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mediator_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mediator_Example/Pods-Mediator_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EA2552130314A4F03D75120E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		FD96E47D0817553567FCED88 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EA2552130314A4F03D75120E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FD96E47D0817553567FCED88 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -527,6 +527,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mediator/Mediator-Prefix.pch";
 				INFOPLIST_FILE = "Mediator/Mediator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -542,6 +543,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mediator/Mediator-Prefix.pch";
 				INFOPLIST_FILE = "Mediator/Mediator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
