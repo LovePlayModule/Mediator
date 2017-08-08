@@ -1,6 +1,6 @@
 {
   "name": "Mediator",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "Mediator",
   "description": "TODO: Add long description of Mediator.",
   "homepage": "https://github.com/LovePlayModule/Mediator",
@@ -12,8 +12,8 @@
     "YunsChou": "2647754496@qq.com"
   },
   "source": {
-    "git": "https://github.com/LovePlayModule/Mediator",
-    "tag": "0.1.0"
+    "git": "https://github.com/LovePlayModule/Mediator.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"

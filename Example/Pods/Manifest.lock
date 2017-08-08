@@ -1,5 +1,5 @@
 PODS:
-  - Mediator (0.1.0)
+  - Mediator (0.1.1)
 
 DEPENDENCIES:
   - Mediator (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Mediator: 0b8c33f521cf9d367fa2fde28717dcd6e2edab77
+  Mediator: 4cdc588d43d586ed985115fb9167a77121b0b947
 
-PODFILE CHECKSUM: b73a6d5bf4748886f16031360bbc01cb62059144
+PODFILE CHECKSUM: 0647531f8a5b8a6e2453822d311a57b4bdf11c33
 
 COCOAPODS: 1.2.1
